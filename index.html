@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EQO — Illustrator &amp; Visual Artist</title>
+<meta name="description" content="EQO is an illustrator and visual artist creating bold, colorful illustration, branding and digital art. See selected work and get in touch.">
+<meta name="theme-color" content="#001668">
+<meta property="og:title" content="EQO — Illustrator &amp; Visual Artist">
+<meta property="og:description" content="Bold, colorful illustration, branding and digital art.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/logo.png">
+<link rel="icon" href="assets/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add("js")</script>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ============ HEADER ============ -->
+<header class="header">
+  <div class="wrap nav">
+    <a class="brand" href="#home" aria-label="EQO home">
+      <img src="assets/logo.png" alt="EQO logo" width="46" height="46">
+      <span>EQO</span>
+    </a>
+    <button class="burger" aria-label="Toggle menu" aria-expanded="false" aria-controls="menu"><span></span></button>
+    <nav class="menu" id="menu" aria-label="Main">
+      <a href="#home">Home</a>
+      <a href="#works">Works</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a class="cta" href="#contact">Hire Me</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow reveal">Illustrator &amp; Visual Artist</span>
+      <h1 class="reveal d1">Hi, I'm <span class="cool">EQO.</span><br>I draw ideas <span class="warm">to life.</span></h1>
+      <p class="lead reveal d2">I create bold, colorful illustration, branding and digital art that gives brands and stories a look people remember.</p>
+      <div class="hero-actions reveal d3">
+        <a class="btn btn-primary" href="#works">View my work
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-ghost" href="#contact">Let's talk</a>
+      </div>
+      <div class="stats reveal d3">
+        <div><b>120+</b><span>Projects done</span></div>
+        <div><b>8+</b><span>Years of experience</span></div>
+        <div><b>60+</b><span>Happy clients</span></div>
+      </div>
+    </div>
+    <div class="portrait reveal d2">
+      <div class="orbit" aria-hidden="true"></div>
+      <div class="frame" role="img" aria-label="Portrait of EQO"></div>
+      <span class="dot d1" aria-hidden="true"></span>
+      <span class="dot d2" aria-hidden="true"></span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="track">
+    <span>Illustration</span><span>Branding</span><span>Character Design</span><span>Digital Art</span><span>Poster Design</span><span>Packaging</span>
+    <span>Illustration</span><span>Branding</span><span>Character Design</span><span>Digital Art</span><span>Poster Design</span><span>Packaging</span>
+  </div>
+</div>
+
+<!-- ============ WORKS ============ -->
+<section id="works">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="reveal">
+        <span class="eyebrow">Portfolio</span>
+        <h2>Selected works</h2>
+      </div>
+      <p class="reveal d1">A look at recent projects. Click any piece to see details.</p>
+    </div>
+
+    <div class="filters reveal" role="group" aria-label="Filter works">
+      <button class="on" data-filter="all" aria-pressed="true">All</button>
+      <button data-filter="illustration" aria-pressed="false">Illustration</button>
+      <button data-filter="branding" aria-pressed="false">Branding</button>
+      <button data-filter="poster" aria-pressed="false">Posters</button>
+    </div>
+
+    <div class="grid">
+      <button class="work reveal" data-num="01" data-cat="illustration" data-catlabel="Illustration" data-title="Project One" data-desc="Add a short description of this project here: the idea, the tools and the result.">
+        <span class="img" style="background-image:url(assets/work-1.jpg)"></span>
+        <span class="info"><small>Illustration</small><h3>Project One</h3></span>
+      </button>
+      <button class="work reveal d1" data-num="02" data-cat="branding" data-catlabel="Branding" data-title="Project Two" data-desc="Add a short description of this project here: the idea, the tools and the result.">
+        <span class="img" style="background-image:url(assets/work-2.jpg)"></span>
+        <span class="info"><small>Branding</small><h3>Project Two</h3></span>
+      </button>
+      <button class="work reveal d2" data-num="03" data-cat="poster" data-catlabel="Poster" data-title="Project Three" data-desc="Add a short description of this project here: the idea, the tools and the result.">
+        <span class="img" style="background-image:url(assets/work-3.jpg)"></span>
+        <span class="info"><small>Poster</small><h3>Project Three</h3></span>
+      </button>
+      <button class="work reveal" data-num="04" data-cat="illustration" data-catlabel="Illustration" data-title="Project Four" data-desc="Add a short description of this project here: the idea, the tools and the result.">
+        <span class="img" style="background-image:url(assets/work-4.jpg)"></span>
+        <span class="info"><small>Illustration</small><h3>Project Four</h3></span>
+      </button>
+      <button class="work reveal d1" data-num="05" data-cat="poster" data-catlabel="Poster" data-title="Project Five" data-desc="Add a short description of this project here: the idea, the tools and the result.">
+        <span class="img" style="background-image:url(assets/work-5.jpg)"></span>
+        <span class="info"><small>Poster</small><h3>Project Five</h3></span>
+      </button>
+      <button class="work reveal d2" data-num="06" data-cat="branding" data-catlabel="Branding" data-title="Project Six" data-desc="Add a short description of this project here: the idea, the tools and the result.">
+        <span class="img" style="background-image:url(assets/work-6.jpg)"></span>
+        <span class="info"><small>Branding</small><h3>Project Six</h3></span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="about" id="about">
+  <div class="wrap about-grid">
+    <div class="about-img reveal" role="img" aria-label="EQO at work"></div>
+    <div>
+      <span class="eyebrow reveal">About me</span>
+      <h2 class="reveal d1">Art with energy, built around your story.</h2>
+      <p class="reveal d1">I'm EQO, an illustrator and visual artist. My style mixes deep blues with warm orange accents: the same contrast you see in my logo, a calm base with a spark of motion.</p>
+      <p class="reveal d2">Replace this paragraph with your own story: where you work, what inspires you and what clients can expect when they work with you.</p>
+      <ul class="skills reveal d2">
+        <li>Procreate</li><li>Adobe Illustrator</li><li>Photoshop</li><li>Figma</li><li>Hand Drawing</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="reveal">
+        <span class="eyebrow">What I do</span>
+        <h2>Services</h2>
+      </div>
+      <p class="reveal d1">From a single illustration to a full visual identity.</p>
+    </div>
+    <div class="cards">
+      <article class="card reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/></svg></div>
+        <h3>Illustration</h3><p>Custom artwork for editorial, web, apps and print.</p>
+      </article>
+      <article class="card reveal d1">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 0 0 18M3 12h18"/></svg></div>
+        <h3>Branding</h3><p>Logos and identity systems with a clear, memorable voice.</p>
+      </article>
+      <article class="card reveal d2">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21"/></svg></div>
+        <h3>Posters &amp; Print</h3><p>Eye-catching posters, covers and packaging designs.</p>
+      </article>
+      <article class="card reveal d3">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg></div>
+        <h3>Character Design</h3><p>Mascots and characters with personality, ready for any media.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="process" id="process">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="reveal">
+        <span class="eyebrow">How I work</span>
+        <h2>My process</h2>
+      </div>
+      <p class="reveal d1">A simple, clear workflow from first message to final files.</p>
+    </div>
+    <div class="acc reveal">
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="true" id="a1" aria-controls="p1"><i>01</i>Discovery</button>
+        <div class="acc-panel" id="p1" role="region" aria-labelledby="a1"><div><p>We talk about your goals, audience and style references so the work starts on solid ground.</p></div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false" id="a2" aria-controls="p2"><i>02</i>Sketch &amp; concept</button>
+        <div class="acc-panel" id="p2" role="region" aria-labelledby="a2"><div><p>I share rough sketches and directions. You pick the one that feels right.</p></div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false" id="a3" aria-controls="p3"><i>03</i>Final artwork</button>
+        <div class="acc-panel" id="p3" role="region" aria-labelledby="a3"><div><p>The chosen concept is refined with color, detail and your feedback.</p></div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false" id="a4" aria-controls="p4"><i>04</i>Delivery</button>
+        <div class="acc-panel" id="p4" role="region" aria-labelledby="a4"><div><p>You receive print and web-ready files in the formats you need.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <span class="eyebrow reveal">Contact</span>
+      <h2 class="reveal d1">Have a project in mind?</h2>
+      <p class="reveal d2">Tell me what you're working on and I'll get back to you soon.</p>
+      <div class="links reveal d2">
+        <!-- Replace the # links with your real profiles -->
+        <a href="#contact">Instagram ↗</a>
+        <a href="#contact">Behance ↗</a>
+        <a href="#contact">Dribbble ↗</a>
+      </div>
+    </div>
+    <form id="contact-form" class="reveal d1" novalidate>
+      <div class="field">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" autocomplete="name" required>
+        <span class="msg">Please enter your name.</span>
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required>
+        <span class="msg">Please enter a valid email.</span>
+      </div>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+        <span class="msg">Please write at least 10 characters.</span>
+      </div>
+      <button class="btn btn-primary" type="submit">Send message
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      <p class="status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a class="brand" href="#home"><img src="assets/logo.png" alt="" width="46" height="46"><span>EQO</span></a>
+        <p>Illustrator &amp; visual artist creating bold, colorful work.</p>
+      </div>
+      <nav aria-label="Footer">
+        <a href="#works">Works</a><a href="#about">About</a><a href="#services">Services</a><a href="#process">Process</a><a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="copy"><span>© <span id="year">2026</span> EQO. All rights reserved.</span><span>Designed &amp; built with care.</span></div>
+  </div>
+</footer>
+
+<button class="top" aria-label="Back to top">↑</button>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Project details">
+  <button class="lb-close" aria-label="Close">×</button>
+  <div class="lb-card">
+    <div class="lb-img"></div>
+    <div class="lb-body">
+      <small class="lb-cat"></small>
+      <h3 class="lb-title"></h3>
+      <p class="lb-desc"></p>
+      <a class="btn btn-primary" href="#contact" onclick="document.querySelector('.lb-close').click()">Start a similar project</a>
+    </div>
+  </div>
+</div>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
